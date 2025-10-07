@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Programacion 3</title>
+</head>
+<body>
+    
+    <p>Ejemplo de imagenes</p>
+    <p>Immage local</p>
+    <img src="image/image.png">
+    <br>
+    <br>
+    <p>Image externa</p>
+    <img src="https://ute.edu.ec/wp-content/uploads/2024/10/campus-ute-manabi-860x450.jpg">
+    <br>
+    <br>
+    <img width="300" height="200" src="https://ute.edu.ec/wp-content/uploads/2024/10/campus-ute-manabi-860x450.jpg">
+    <br>
+    <br>
+    <a href="https://ute.edu.ec" target="_blank">
+        <img width="300" height="200" title="Ir al portal ute" src="https://ute.edu.ec/wp-content/uploads/2024/10/campus-ute-manabi-860x450.jpg">
+    </a>
+    
+    
+</body>
+</html>
