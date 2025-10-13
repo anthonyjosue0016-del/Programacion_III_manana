@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body bgcolor="#D3D3D3" >
+    <h1 align="center" >DATOS DEL USUARIO</h1>
+    <form action="procesar.php" method="post" align="center">
+        <table border="0" align="center" style="font-family: 'Arial', serif">
+            <tr>
+                <th>
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="correo">Correo Electronico:</label>
+                    <input type="email" id="correo" name="correo">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="fecha">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
+                </th>
+                <th>
+                    <label for="pais">Pais:</label>
+                    <select id="pais" name="pais">
+                        <option value="ec">Seleccione ...</option>
+                        <option value="pe">Ecuador</option>
+                        <option value="pe">Peru</option>
+                        <option value="cl">Chile</option>
+                        <option value="ar">Argentina</option>
+                        <option value="co">Colombia</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="genero">Genero:</label>
+                    <input type="radio" id="m" name="genero" value="M"> <label for="m">Masculino</label>
+                    <input type="radio" id="f" name="genero" value="F"> <label for="f">Femenino</label>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="1234567890">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="direccion">Direccion:</label>
+                    <input type="text" id="direccion" name="direccion" size="40">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="carrera">Carrera:</label>
+                    <input type="text" id="carrera" name="carrera" size="40">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea id="comentarios" name="comentarios" rows="2"></textarea>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="checkbox" id="acepto" name="acepto" required>
+                    <label for="acepto">Acepto los terminos y condiciones</label>
+                </th>
+            </tr>
+        
+        </table>
+        <br>
+    <br>
+    <input type="button" value="Regresar" style="background-color: #FF6347 ; border: none; padding: 10px 20px; cursor: pointer;" onclick="history.back();">
+    <input type="submit" value="Enviar" style="background-color: #90EE90 ; border: none; padding: 10px 20px; cursor: pointer;">
+    <input type="reset" value="Limpiar" style="background-color: #87CEEB; border: none; padding: 10px 20px; cursor: pointer;">
+    </form>
+</body>
+</html>
+

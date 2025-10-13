@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Programacion 3</title>
+    <style>
+        /* Estilos para el fondo desvanecido */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            position: relative;
+            min-height: 100vh;
+            color: #000; /* color del texto */
+        }
+
+        /* Fondo con opacidad usando pseudo-elemento */
+        body::before {
+            content: "";
+            background: url('image/image_biblioteca.png') no-repeat center center;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.3; /* Ajusta entre 0 y 1 según el desvanecido */
+            z-index: -1;  /* Para que quede detrás del contenido */
+        }
+
+        /* Contenedor de todo el contenido */
+        .contenido {
+            position: relative;
+            text-align: center;
+            padding: 30px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #1E90FF;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenido">
+    <h1 align="center">Enlaces de mi Biblioteca</h1>
+    <a href="01_base_mp.html">Ir a base</a><br><br>
+    <a href="02_parrafo_mp.html">Ir a parrafo</a><br><br>
+    <a href="03_titulo_mp.html">Ir a titulo</a><br><br>
+    <a href="04_formato_mp.html">Ir a formato</a><br><br>
+    <a href="05_comentarios_saltos_de_linea_mp.html">Comentarios y saltos de línea</a><br><br>
+    <a href="06_listas_mp.html">Ir a listas</a><br><br>
+    <a href="08_imagenes_mp.html">Ir a imagen</a><br><br>
+    <a href="09_tablas_mp.html">Ir a tablas</a><br><br>
+    <a href="10_formulario_mp.html">Ir a Formulario de Usuario</a><br><br>
+    <a href="11_formulario_expediente_mp.html">Ir a Formulario Expediente</a><br><br>
+    <p align="center">Libros que inspiran, usuarios que aprenden.</p>
+    <p align="center">Controla tus préstamos y descubre mundos sin límites.</p>
+    <p align="center">La biblioteca digital que cuida de tus lecturas y tu tiempo.</p>
+    <p align="center">Tu espacio seguro para explorar, aprender y disfrutar de la lectura.</p>
+    </div>
+</body>
+</html>
