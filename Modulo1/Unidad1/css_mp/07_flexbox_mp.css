@@ -1,0 +1,35 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid #3E2723;
+    padding: 15px;
+    gap: 15px;
+    background-color: #D7CCC8;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.item {
+    background-color: #EEE8AA;
+    color: #3E2723;
+    padding: 20px;
+    border: 2px solid #8B4513;
+    flex: 1 1 100px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.item_especial {
+    align-self: flex-start;
+    background-color: #2E8B57;
+    color: #FAF3E0;
+    padding: 20px;
+    border: 2px solid #3E2723;
+    flex: 1 1 150px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}

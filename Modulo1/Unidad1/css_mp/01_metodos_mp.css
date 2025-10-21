@@ -1,0 +1,15 @@
+h1 {
+    color: #3E2723;
+    background-color: #D7CCC8;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.subtitulo {
+    color: #2E8B57;
+    background-color: #EEE8AA;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+}

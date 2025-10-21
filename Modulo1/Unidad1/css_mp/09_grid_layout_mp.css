@@ -1,0 +1,50 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+    gap: 10px;
+}
+
+header {
+    grid-area: header;
+    background-color: #D7CCC8;
+    color: #3E2723;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #2E8B57;
+    color: #FAF3E0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+main {
+    grid-area: main;
+    background-color: #EEE8AA;
+    color: #3E2723;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #8B4513;
+    color: #FAF3E0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.layout > * {
+    border: 2px solid #3E2723;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}

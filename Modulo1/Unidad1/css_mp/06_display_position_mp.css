@@ -1,0 +1,43 @@
+body {
+    height: 1000px;
+    position: relative;
+}
+
+.estatico {
+    position: static;
+    background-color: #D7CCC8;
+    color: #3E2723;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.relativo {
+    position: relative;
+    background-color: #2E8B57;
+    color: #FAF3E0;
+    padding: 10px;
+    left: 50px;
+    top: 50px;
+    border-radius: 8px;
+}
+
+.fijo {
+    position: fixed;
+    background-color: #3E2723;
+    color: #EEE8AA;
+    padding: 10px;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.absoluto {
+    position: absolute;
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    padding: 10px;
+    left: 200px;
+    top: 300px;
+    border-radius: 8px;
+}

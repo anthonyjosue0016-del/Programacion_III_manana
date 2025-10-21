@@ -1,0 +1,28 @@
+.boton {
+    background-color: #3E2723;
+    border: none;
+    color: #FAF3E0;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #EEE8AA;
+    color: #3E2723;
+    border: 2px solid #3E2723;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+@keyframes parpadeo {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

@@ -1,0 +1,34 @@
+div p {
+    color: #3E2723;
+    background-color: #D7CCC8;
+    text-align: center;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+ul > li {
+    color: #2E8B57;
+    background-color: #EEE8AA;
+    text-align: center;
+    padding: 4px;
+    border-radius: 6px;
+    margin: 4px 0;
+}
+
+a:hover {
+    color: #B8860B;
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    border: 2px solid #3E2723;
+    padding: 6px;
+    border-radius: 5px;
+    width: 60%;
+}
+p.intro {
+    color: blue;
+    background-color: lightyellow;
+    text-align: left;
+    font-style: italic;
+}
