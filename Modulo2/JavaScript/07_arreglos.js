@@ -47,5 +47,6 @@ for (let num of numeros) {
 }
 console.log("Iteracción de array con forEach:");
 numeros.forEach(function(num, indice) {
-    console.log("Elemento del array en el índice", indice, "es:", num);
+    console.log("Elemento del array en el índice", indice, "es:", num);dgfewfej
 });
+
