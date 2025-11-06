@@ -1,8 +1,8 @@
 function saludar(nombre) {
-    return 'Hola ${nombre}';
+    return "Hola ".concat(nombre);
 }
-console.log(saludar(saludar('Anthony')));
-//Función Flecha
+console.log(saludar('Anthony'));
+// Función Flecha
 var sumar = function (a, b) {
     return a + b;
 };
