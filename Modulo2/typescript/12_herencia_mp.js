@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var _11_herencia_mp_1 = require("./11_herencia_mp");
+var miLibro = new _11_herencia_mp_1.Libro('Cien Años de Soledad', 'Realismo Mágico');
+console.log(miLibro.titulo);
+console.log(miLibro.genero);
+miLibro.mostrarInfo();
+var miRevista = new _11_herencia_mp_1.Revista('National Geographic', 'Ciencia');
+console.log(miRevista.titulo);
+console.log(miRevista.genero);
+miRevista.mostrarInfo();

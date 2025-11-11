@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>TONY BIBLIOTECA - Control de Interfaz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      text-align: center;
+      margin-top: 50px;
+      color: #333;
+    }
+
+    h1 {
+      color: #1e3a8a;
+    }
+
+    #cuadro {
+      width: 120px;
+      height: 120px;
+      background-color: #1d4ed8;
+      border-radius: 10px;
+      margin: 20px auto;
+      transition: all 0.5s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #1e40af;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Panel de Control - TONY BIBLIOTECA</h1>
+  <p>Interfaz para gestionar estilos de la biblioteca</p>
+
+  <div id="cuadro"></div>
+
+  <div>
+    <button onclick="cambiarColor()">🎨 Cambiar Color</button>
+    <button onclick="aumentarTamano()">📚 Aumentar Tamaño</button>
+    <button onclick="reiniciar()">🔄 Reiniciar</button>
+  </div>
+
+  <footer>© 2025 TONY BIBLIOTECA - Sistema de Control Visual</footer>
+
+  <script src="09_estilos.js"></script>
+</body>
+</html>
