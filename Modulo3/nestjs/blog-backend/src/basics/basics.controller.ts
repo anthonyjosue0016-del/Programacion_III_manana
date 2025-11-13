@@ -1,4 +1,4 @@
-import { Body, Controller, Delete, Get, Param, Put } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Post, Put, } from '@nestjs/common';
 import { BasicsService } from './basics.service';
 
 @Controller('basics')
@@ -20,9 +20,10 @@ export class BasicsController {
 
     @Put(':id')
     update(@Body() bodyPost: object,
-    @Param('id') id: string) {
+           @Param('id') id: string) {
     return this.basicsService.putFunction(bodyPost, id);
   }
+
     @Delete(':id')
     remove(@Body() bodyPost: object,
     @Param('id') id: string) {

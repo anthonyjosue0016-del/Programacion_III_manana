@@ -28,15 +28,15 @@ export class BasicsService {
         };
     }
 
-    putFunction(bodyPost: object): object {
-        return {
-            service: 'blog-backend',
-            controller: '/basics tipo put',
-            function: 'Ejemplo peticion Put',
-            bodyRecibido: bodyPost,
-            parametro: parametro
-        };
-    }
+    putFunction(bodyPost: object, parametro: string): object {
+    return {
+        service: 'blog-backend',
+        controller: '/basics tipo put',
+        function: 'Ejemplo petición PUT',
+        bodyRecibido: bodyPost,
+        parametro: parametro
+    };
+}
 
     deleteFunction(bodyPost: object, parametro: string): object {
         return {
@@ -47,3 +47,4 @@ export class BasicsService {
             parametro: parametro
         };
     }
+}
