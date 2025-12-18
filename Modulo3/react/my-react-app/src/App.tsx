@@ -1,25 +1,18 @@
-import ParentButtonOne from "./props/ParentButtonOne";
-import ParentIncrementButton from "./props/ParentIncrementButton";
-import ParentInputNotifier from "./props/ParentInputNotifier";
-import ParentUserList from "./props/ParentUserList";
-import ParentLoginForm from "./props/ParentLoginForm";
-import AreaTriangulo from "./props/AreaTriangulo";
+import AreaCirculo from "./useReducer/AreaCirculo";
+import Carrito from "./useReducer/Carrito";
+import ContadorReducer from "./useReducer/ContadorReducer";
+import FormularioReducer from "./useReducer/FormularioReducer";
+import ListaReducer from "./useReducer/ListaReducer";
 
 function App() {
-  return (
-    <div className="App">
-      <ParentButtonOne />
-      <ParentIncrementButton />
-      <br />
-      <ParentInputNotifier />
-      <br />
-      <ParentUserList />
-      <br />
-      <ParentLoginForm />
-      <br />
-      <AreaTriangulo />
-    </div>
+    return (
+    <>
+      <AreaCirculo />
+      <ContadorReducer />
+      <FormularioReducer />
+      <Carrito />
+      <ListaReducer />
+    </>
   );
 }
-
 export default App;
